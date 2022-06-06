@@ -4,52 +4,267 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="top">
-        <div class="container">
+    <link rel="shortcut icon" href="images/Forma 1buy.svg" >
+    <script src="script.js" defer></script>
+</head>  
+<body >
+    <header>
+        <div class="header">
+            <div class="container">
             <div class="navbox">
+                
                 <ul class="navbox-left">
                     <li><a href="index.html"><img src="images/Group 2.svg" alt="logo"></a></li>
                     <li><a href="index.html"><img src="images/Forma 1search.svg" alt="logo"></a></li>
                 </ul>
                 <ul class="navbox-right">
-                    <li><a href="index.html"><img src="images/Forma 1menu.svg" alt="logo"></a></li>
+                   
+                    <div class="dropdown">
+                        <li class="link"><a class="link" href="index.html"><img src="images/Forma 1menu.svg" alt="logo"></a></li>
+                            <div class="dropdown__menu">
+                                <a class="dropdown__link" href="#">Home</a>
+                                <a class="dropdown__link" href="#">Home</a>
+                                <a class="dropdown__link" href="#">Home</a>
+                                <a class="dropdown__link" href="#">Home</a>
+                            </div>
+                    </div>
                     <li><a href="index.html"><img src="images/Forma 1personal.svg" alt="logo"></a></li>
                     <li><a href="index.html"><img src="images/Forma 1buy.svg" alt="logo"></a></li>
                 </ul>
             </div>
-            <div class="top__info">
-               <div class="top__line">
-
-               </div>
-                <div class="top__heading">
-                    <h1>THE BRAND</h1>
-                    <h2>OF LUXERIOUS <span style="color: pink;">FASHION</span></h2>
-                </div>
-            </div>
-            
         </div>
-    </div>
+        </div>
+        <div class="top__background">
+            <div class="container">
+                <div class="top__info">
+                    <div class="top__line">
+     
+                    </div>
+                     <div class="top__heading">
+                         <h1>THE BRAND</h1>
+                         <h2>OF LUXERIOUS <span style="color: pink;">FASHION</span></h2>
+                     </div>
+                 </div>
+            
+         
+            
+            </div>
+        </div>
+  
+    </header>
+   
+  
     <div class="body container">
         <div class="top__cards">
-            <a href="#"><img src="images/Group 36left.jpg" alt="top left"></a>
-            <a href="#"><img src="images/Group 37center.jpg" alt="top left"></a>
-            <a href="#"><img src="images/Rectangle 20right.jpg" alt="center"></a>
+            <a href="#" class="content1"><img src="images/Group 36left.jpg" alt="top left"></a>
+            <a href="#" class="content"><img src="images/Group 37center.jpg" alt="top left"></a>
+            <a href="#" class="content3"><img src="images/Rectangle 20right.jpg" alt="center"></a>
 
            
         </div>
         <div class="bottom__card">
-            <a href="#">
+            <a href="#" class="content">
                 <img src="images/Group 39below.jpg" alt="below">
 
             </a>
         </div>
     </div>
+
+    <main class="container">
+        <div class="article__header">
+            <h1 class="article__title ">Fetured items</h1>
+            <p class="article__paragraph">Shop for items based on what we featured in this week</p>
+        </div>
+            
+        <picture class="item__flex container">
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+            <div class="item">
+                <a class="item__link" href="#">
+                    <img class="item__link__image" src="images/Rectangle 15 copy1.png" alt="product">
+                    
+                    <div class="item__text">
+                        <p class="item__text__header">ELLERY X M'O CAPSULE</p>
+                        <p class="item__text__description">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <p class="item__text__price">$52.00</p>
+                    </div>
+                </a>
+                <div class="add__box">
+                    <a class="add" href="#">
+                        <img src="images/Forma 1buy.svg" alt="buy cart">
+                        <p class="add__text">Add to Cart</p>
+                    </a>
+                </div>
+              
+            </div>
+        
+            
+
+        </picture>
+        <div class="button container">
+            <a class="button__link" href="#">
+                <p class="button__text">Browse All Product</p>
+            </a>
+        </div>
+           
+        <section>
+            <div class="body__footer container">
+                <div class="card__box">
+                    <div class="card">
+                      <img class="body__footer__image" src="images/Forma 1camion.svg" alt="truck">
+                      <h4 class="body__footer__header">Sales & discounts</h4>
+                      <p class="body__footer__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                
+                    <div class="card">
+                      <img class="body__footer__image" src="images/Forma 1discont.png" alt="truck">
+                      <h4 class="body__footer__header">Sales & discounts</h4>
+                      <p class="body__footer__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                    <div class="card">
+                      <img class="body__footer__image" src="images/Forma 1crown.png" alt="truck">
+                      <h4 class="body__footer__header">Quality assurance</h4>
+                      <p class="body__footer__description">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                    </div>
+                
+                  </div>
+            </div>
+            
+        </section>
+        <form class="body__footer__form container">
+            <div class="form__left">
+                <img src="images/Intersectwoman xd.png" alt="woman">
+                <p class="form__left__paragraph">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“</p>
+            </div>
+            <div class="form__right">
+                <div class="text__form__right">
+                    <h3 style="font-weight: 700;">SUBSCRIBE</h3><br>
+                    <h4 class="text__form__right__h4">FOR OUR NEWLETTER AND PROMOTION</h4>
+                    <div class="wrapper">
+                       
+                        <div class="field">
+                            <input type="text" placeholder="Email Address">
+                            <label class="form__right__buttom">Subscribe</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__left">
+                    <p>© 2021  Brand  All Rights Reserved.</p>
+                </div>
+                <ul class="footer__right">
+                    
+                    <div class="footer__logo"><li><a href="index.html"><img src="images/Vectorfacebook.svg" alt="logo"></a></li></div>
+                    <div class="footer__logo"><li><a href="index.html"><img src="images/Vectorinsta.svg" alt="logo"></a></li></div>
+                    <div class="footer__logo"><li><a href="index.html"><img src="images/Vectorpinterest.svg" alt="logo"></a></li></div>
+                    <div class="footer__logo"><li><a href="index.html"><img src="images/Vectortwiter.svg" alt="logo"></a></li></div>
+                 </ul>
+                 
+            </div>
+        </div>
+       
+      
+    </footer>
 </body>
 </html>
