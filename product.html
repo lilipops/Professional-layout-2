@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Product</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -70,72 +73,56 @@
     </header>
 
     <div class="content">
-        <section class="top">
-            <div class="top__item container">
 
-                <div class="top__img"> <img class="top__item__img" src="img/the brand men.png" alt="photo men"></div>
-
-                <div class="top__item__text">
-
-                    <div class="rectangle"></div>
-                    <h1 class="h1__top"> <span class="h1__brand">THE BRAND</span> <br>OF LUXERIOUS<span
-                            class="h1__top__span"> FASHION</span></h1>
-                </div>
-            </div>
+        <section class="catalog container">
+            <h1 class="catalog__h1">NEW ARRIVALS</h1>
+            <nav class="catalog__nav">
+                <ul class="item__catalog__nav">
+                    <li class="item__catalog"><a class="item__cat" href="index.html">HOME</a></li>
+                    <li class="item__catalog">/</li>
+                    <li class="item__catalog"><a class="item__cat" href="#">MEN</a></li>
+                    <li class="item__catalog">/</li>
+                    <li class="item__catalog"><a class="item__cat" href="#">NEW ARRIVALS</a></li>
+                </ul>
+            </nav>
         </section>
 
-        <section class="for_person">
-            <div class="container">
+        <section class="image-slide">
+            <a  class="slide__box__left" href="#">
+                <img class="slide-pic" src="svg/slide-left.svg" alt="slide-left">
+            </a>
+            <img src="img/image-slide-1.png" alt="slide">
+            <a class="slide__box__right" href="#">
+                <img class="slide-pic" src="svg/slide-right.svg" alt="slide-right">
+            </a>
+        </section>
 
-                <div class="for__parent">
-                    <a href="#" class="a">
-                        <div class="for__item for__item__margin">
-                            <img class="for__img" src="img/for women.png" alt="for women">
-                            <p class="for__text__women">30% OFF<br><span class="for__text__color">FOR WOMEN</span></p>
-                        </div>
+        <section class="product-description container">
+            <h3 class="collection">WOMEN COLLECTION</h3>
+            <div class="rectangle-prod"></div>
+            <p class="collection-text">MOSCHINO CHEAP AND CHIC</p>
+            <p class="collection-desc">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+            <p class="collection-prise">$561</p>
+            <div class="rectangle-prise"></div>
 
-                    </a>
+            <nav class="collection-menu">
+                <details class="collection-detail"><summary>CHOOSE COLOR <img class="detail-strl" src="svg/стрелка вниз Prod.svg" alt="collection-detail"></summary>other</details>
+                <details class="collection-detail"><summary>CHOOSE SIZE <img class="detail-strl" src="svg/стрелка вниз Prod.svg" alt="collection-detail"></summary>other</details> 
+                <details class="collection-detail"><summary>QUANTITY <img class="detail-strl" src="svg/стрелка вниз Prod.svg" alt="collection-detail"></summary>other</details>
+            </nav>
 
-                    <a href="#" class="a">
-                        <div class="for__item for__item__margin">
-                            <img class="for__img" src="img/for men.png" alt="for men">
-                            <p class="for__text__men">HOT DEAL<br><span class="for__text__color">FOR MEN</span></p>
-                        </div>
-                    </a>
-
-                    <a href="#" class="a">
-                        <div class="for__item">
-                            <img class="for__img" src="img/for kids.png" alt="for kids">
-                            <p class="for__text__kids">NEW ARRIVALS<br><span class="for__text__color">FOR KIDS</span>
-                            </p>
-                        </div>
-                    </a>
-
-                </div>
-
-                <a href="#" class="a">
-                    <div class="for__item">
-                        <img class="for__img" src="img/accesories.png" alt="accesories">
-                        <p class="for__text__accesories"> LUXIROUS & TRENDY<br><span
-                                class="for__text__color">ACCESORIES</span>
-                        </p>
-                    </div>
-                </a>
-
-            </div>
+            <a href="#" class="colletion-button">
+                <img src="svg/telejka-pink.svg" alt="">
+                <p class="coll-but-text">Add to Cart</p>
+            </a>
         </section>
 
         <section class="item-sec">
             <div class="container">
-
-             
-                <h3 class="item-heading">Fetured Items</h3>
-                <p class="desc">Shop for items based on what we featured in this week</p>
-
                 <div class="item-flex">
                     <div class="item">
                         <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-1.png" alt="product"></img>
+                            <img class="item-pic" src="img/card-4.png" alt="product"></img>
                             <div class="txt-box">
                                 <p class="item-desc">ELLERY X M'O CAPSULE</p>
                                 <p class="item-price">$52.00</p>
@@ -167,54 +154,6 @@
 
                     <div class="item">
                         <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-3.png" alt="product"></img>
-                            <div class="txt-box">
-                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
-                                <p class="item-price">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-box">
-                            <a class="add" href="#">
-                                <img src="svg/telejka.svg" alt="telejka">
-                                <p class="add-desc">Add to Cart</p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-4.png" alt="product"></img>
-                            <div class="txt-box">
-                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
-                                <p class="item-price">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-box">
-                            <a class="add" href="#">
-                                <img src="svg/telejka.svg" alt="telejka">
-                                <p class="add-desc">Add to Cart</p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-5.png" alt="product"></img>
-                            <div class="txt-box">
-                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
-                                <p class="item-price">$52.00</p>
-                            </div>
-                        </a>
-                        <div class="add-box">
-                            <a class="add" href="#">
-                                <img src="svg/telejka.svg" alt="telejka">
-                                <p class="add-desc">Add to Cart</p>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <a class="item-link" href="#"> 
                             <img class="item-pic" src="img/card-6.png" alt="product"></img>
                             <div class="txt-box">
                                 <p class="item-desc">ELLERY X M'O CAPSULE</p>
@@ -227,44 +166,9 @@
                                 <p class="add-desc">Add to Cart</p>
                             </a>
                         </div>
-                    </div>
-                </div>
-                
-                    <div class="sec-button">
-                        <a href="product.html" class="button-sec">
-                            <p class="button-text">Browse All Product</p>
-                        </a>
-                    </div>
-                    
+                    </div>                    
                 
             </div>
-        </section>
-
-        <section class="info">
-
-            <div class="info__container container">
-                <div class="info__card_1">
-                    <img src="svg/car.svg" alt="car" class="info__img">
-                    <h3 class="h3__info">Free Delivery</h3>
-                    <p class="p__info">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                        extensive models.</p>
-                </div>
-
-                <div class="info__card_2">
-                    <img src="svg/present.svg" alt="car" class="info__img">
-                    <h3 class="h3__info">Free Delivery</h3>
-                    <p class="p__info">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                        extensive models.</p>
-                </div>
-
-                <div class="info__card_3">
-                    <img src="svg/korona.svg" alt="car" class="info__img">
-                    <h3 class="h3__info">Free Delivery</h3>
-                    <p class="p__info">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                        extensive models.</p>
-                </div>
-            </div>
-
         </section>
 
         <section class="subscribe">
@@ -291,6 +195,7 @@
 
             </div>
         </section>
+
     </div>
 
     <footer class="footer">

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>Catalog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -70,68 +70,153 @@
     </header>
 
     <div class="content">
-        <section class="top">
-            <div class="top__item container">
 
-                <div class="top__img"> <img class="top__item__img" src="img/the brand men.png" alt="photo men"></div>
-
-                <div class="top__item__text">
-
-                    <div class="rectangle"></div>
-                    <h1 class="h1__top"> <span class="h1__brand">THE BRAND</span> <br>OF LUXERIOUS<span
-                            class="h1__top__span"> FASHION</span></h1>
-                </div>
-            </div>
+        <section class="catalog container">
+            <h1 class="catalog__h1">NEW ARRIVALS</h1>
+            <nav class="catalog__nav">
+                <ul class="item__catalog__nav">
+                    <li class="item__catalog"><a class="item__cat" href="index.html">HOME</a></li>
+                    <li class="item__catalog">/</li>
+                    <li class="item__catalog"><a class="item__cat" href="#">MEN</a></li>
+                    <li class="item__catalog">/</li>
+                    <li class="item__catalog"><a class="item__cat" href="#">NEW ARRIVALS</a></li>
+                </ul>
+            </nav>
         </section>
 
-        <section class="for_person">
-            <div class="container">
+        <section class="filter container">
 
-                <div class="for__parent">
-                    <a href="#" class="a">
-                        <div class="for__item for__item__margin">
-                            <img class="for__img" src="img/for women.png" alt="for women">
-                            <p class="for__text__women">30% OFF<br><span class="for__text__color">FOR WOMEN</span></p>
+            <nav class="filter__filter">
+                <div class="filter__filter last">
+                    <h3 class="filter__text">FILTER</h3>
+                    <img class="filter__img" src="svg/filter.svg" alt="filter">
+
+                    <div class="filter-mega-box">
+                        
+                        <details class="collection-detail">
+                            <summary>
+
+                             <div class="filter__container">
+                                <div class="fil-rect"></div>
+                                <h3 class="filter__container__txt">
+                                    CATEGORY
+                                </h3>
+                             </div>
+
+                            </summary>
+
+                            <a class="mega-link-fil" href="#">Accessories</a>
+                            <a class="mega-link-fil" href="#">Bags</a>
+                            <a class="mega-link-fil" href="#">Denim</a>
+                            <a class="mega-link-fil" href="#">Hoodies & Sweatshirts</a>
+                            <a class="mega-link-fil" href="#">Jackets & Coats</a>
+                            <a class="mega-link-fil" href="#">Polos</a>
+                            <a class="mega-link-fil" href="#">Shirts</a>
+                            <a class="mega-link-fil" href="#">Shoes</a>
+                            <a class="mega-link-fil" href="#">Sweaters & Knits</a>
+                            <a class="mega-link-fil" href="#">T-Shirts</a>
+                            <a class="mega-link-fil" href="#">Tanks</a>
+                        
+                        </details>
+
+                        <details class="collection-detail">
+                            <summary>
+
+                                <div class="filter__container">
+                                    <div class="fil-rect"></div>
+                                    <h3 class="filter__container__txt">
+                                        BRAND
+                                    </h3>
+                                 </div>
+
+                            </summary>
+
+                            <a class="mega-link-fil" href="#">Accessories</a>
+                            <a class="mega-link-fil" href="#">Bags</a>
+                            <a class="mega-link-fil" href="#">Denim</a>
+                            <a class="mega-link-fil" href="#">Hoodies & Sweatshirts</a>
+                            <a class="mega-link-fil" href="#">Jackets & Coats</a>
+                            <a class="mega-link-fil" href="#">Polos</a>
+                            <a class="mega-link-fil" href="#">Shirts</a>
+                            <a class="mega-link-fil" href="#">Shoes</a>
+                            <a class="mega-link-fil" href="#">Sweaters & Knits</a>
+                            <a class="mega-link-fil" href="#">T-Shirts</a>
+                            <a class="mega-link-fil" href="#">Tanks</a>
+
+                        </details> 
+
+                        <details class="collection-detail">
+                            <summary>
+                                <div class="filter__container">
+                                    <div class="fil-rect"></div>
+                                    <h3 class="filter__container__txt">
+                                        DESIGNER
+                                    </h3>
+                                 </div>
+                            </summary>
+
+                            <a class="mega-link-fil" href="#">Accessories</a>
+                            <a class="mega-link-fil" href="#">Bags</a>
+                            <a class="mega-link-fil" href="#">Denim</a>
+                            <a class="mega-link-fil" href="#">Hoodies & Sweatshirts</a>
+                            <a class="mega-link-fil" href="#">Jackets & Coats</a>
+                            <a class="mega-link-fil" href="#">Polos</a>
+                            <a class="mega-link-fil" href="#">Shirts</a>
+                            <a class="mega-link-fil" href="#">Shoes</a>
+                            <a class="mega-link-fil" href="#">Sweaters & Knits</a>
+                            <a class="mega-link-fil" href="#">T-Shirts</a>
+                            <a class="mega-link-fil" href="#">Tanks</a>
+
+                        </details>
+
+                    </div>
+                </div>
+            </nav>
+
+            <nav class="other__filter">
+                <div class="other__fil__item" href="">
+                    <h3 class="fil__text__item">TRENDING NOW</h3>
+                    <img class="fil__pic__item" src="svg/стрелка вниз Prod.svg" alt="">
+                </div>
+
+                <div class="other__fil__item" href="">
+                    <h3 class="fil__text__item">SIZE </h3>
+                    <img class="fil__pic__item" src="svg/стрелка вниз Prod.svg" alt="">
+
+                    <div class="other-filter-mega-box">
+
+                        <div class="label-box">
+                           
+                            <label class="label-size" for="XS">
+                                <input id="XS" type="checkbox"><div class="label-text">XS</div></label>
+                           
+                            <label class="label-size" for="S">
+                                <input id="S" type="checkbox"><div class="label-text">S</div></label>
+
+                            <label class="label-size" for="M">
+                                <input id="M" type="checkbox"><div class="label-text">M</div></label>
+
+                            <label class="label-size" for="L">
+                                <input id="L" type="checkbox"><div class="label-text">L</div></label>
+
                         </div>
 
-                    </a>
-
-                    <a href="#" class="a">
-                        <div class="for__item for__item__margin">
-                            <img class="for__img" src="img/for men.png" alt="for men">
-                            <p class="for__text__men">HOT DEAL<br><span class="for__text__color">FOR MEN</span></p>
-                        </div>
-                    </a>
-
-                    <a href="#" class="a">
-                        <div class="for__item">
-                            <img class="for__img" src="img/for kids.png" alt="for kids">
-                            <p class="for__text__kids">NEW ARRIVALS<br><span class="for__text__color">FOR KIDS</span>
-                            </p>
-                        </div>
-                    </a>
+                    </div>
 
                 </div>
 
-                <a href="#" class="a">
-                    <div class="for__item">
-                        <img class="for__img" src="img/accesories.png" alt="accesories">
-                        <p class="for__text__accesories"> LUXIROUS & TRENDY<br><span
-                                class="for__text__color">ACCESORIES</span>
-                        </p>
-                    </div>
+                <a class="other__fil__item" href="">
+                    <h3 class="fil__text__item">PRICE</h3>
+                    <img class="fil__pic__item" src="svg/стрелка вниз Prod.svg" alt="">
                 </a>
+            </nav>
 
-            </div>
+            <div class="filter__none"></div>
+            
         </section>
 
         <section class="item-sec">
             <div class="container">
-
-             
-                <h3 class="item-heading">Fetured Items</h3>
-                <p class="desc">Shop for items based on what we featured in this week</p>
-
                 <div class="item-flex">
                     <div class="item">
                         <a class="item-link" href="#"> 
@@ -179,8 +264,8 @@
                                 <p class="add-desc">Add to Cart</p>
                             </a>
                         </div>
-                    </div>
-
+                    </div> 
+                    
                     <div class="item">
                         <a class="item-link" href="#"> 
                             <img class="item-pic" src="img/card-4.png" alt="product"></img>
@@ -195,11 +280,11 @@
                                 <p class="add-desc">Add to Cart</p>
                             </a>
                         </div>
-                    </div>
+                    </div> 
 
                     <div class="item">
                         <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-5.png" alt="product"></img>
+                            <img class="item-pic" src="img/card-9.png" alt="product"></img>
                             <div class="txt-box">
                                 <p class="item-desc">ELLERY X M'O CAPSULE</p>
                                 <p class="item-price">$52.00</p>
@@ -211,11 +296,11 @@
                                 <p class="add-desc">Add to Cart</p>
                             </a>
                         </div>
-                    </div>
+                    </div> 
 
                     <div class="item">
                         <a class="item-link" href="#"> 
-                            <img class="item-pic" src="img/card-6.png" alt="product"></img>
+                            <img class="item-pic" src="img/card-8.png" alt="product"></img>
                             <div class="txt-box">
                                 <p class="item-desc">ELLERY X M'O CAPSULE</p>
                                 <p class="item-price">$52.00</p>
@@ -227,17 +312,77 @@
                                 <p class="add-desc">Add to Cart</p>
                             </a>
                         </div>
-                    </div>
-                </div>
-                
-                    <div class="sec-button">
-                        <a href="product.html" class="button-sec">
-                            <p class="button-text">Browse All Product</p>
+                    </div> 
+
+                    <div class="item">
+                        <a class="item-link" href="#"> 
+                            <img class="item-pic" src="img/card-7.png" alt="product"></img>
+                            <div class="txt-box">
+                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
+                                <p class="item-price">$52.00</p>
+                            </div>
                         </a>
-                    </div>
-                    
+                        <div class="add-box">
+                            <a class="add" href="#">
+                                <img src="svg/telejka.svg" alt="telejka">
+                                <p class="add-desc">Add to Cart</p>
+                            </a>
+                        </div>
+                    </div> 
+
+                    <div class="item">
+                        <a class="item-link" href="#"> 
+                            <img class="item-pic" src="img/card-12.png" alt="product"></img>
+                            <div class="txt-box">
+                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
+                                <p class="item-price">$52.00</p>
+                            </div>
+                        </a>
+                        <div class="add-box">
+                            <a class="add" href="#">
+                                <img src="svg/telejka.svg" alt="telejka">
+                                <p class="add-desc">Add to Cart</p>
+                            </a>
+                        </div>
+                    </div> 
+
+                    <div class="item">
+                        <a class="item-link" href="#"> 
+                            <img class="item-pic" src="img/card-11.png" alt="product"></img>
+                            <div class="txt-box">
+                                <p class="item-desc">ELLERY X M'O CAPSULE</p>
+                                <p class="item-price">$52.00</p>
+                            </div>
+                        </a>
+                        <div class="add-box">
+                            <a class="add" href="#">
+                                <img src="svg/telejka.svg" alt="telejka">
+                                <p class="add-desc">Add to Cart</p>
+                            </a>
+                        </div>
+                    </div> 
+
                 
             </div>
+        </section>
+
+        <section class="carusel">
+
+            <div class="carusel-box">
+
+                <img class="carusel-pic-left" src="svg/str-left.svg" alt="">
+
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number-box">6.....20</div>
+
+                <img class="carusel-pic-right" src="svg/str-right.svg" alt="">
+
+            </div>
+
         </section>
 
         <section class="info">
@@ -291,6 +436,7 @@
 
             </div>
         </section>
+
     </div>
 
     <footer class="footer">
